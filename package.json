@@ -1,0 +1,27 @@
+{
+  "name": "gemini-ai-agent-cli",
+  "version": "1.0.0",
+  "description": "CLI Agent powered by Google Gemini API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "gemini",
+    "ai",
+    "cli",
+    "agent",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

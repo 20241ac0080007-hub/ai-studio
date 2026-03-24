@@ -1,0 +1,49 @@
+🤖 AGENTE IA WEB - COMO COMEÇAR
+
+██ PASSO 1: Abra um terminal e rode:
+
+   cd backend
+   npm install
+   npm start
+
+Aguarde aparecer: "Servidor rodando em: http://localhost:3000"
+
+---
+
+██ PASSO 2: Abra OUTRO terminal e rode:
+
+   cd frontend
+   python -m http.server 8000
+
+---
+
+██ PASSO 3: Abra navegador
+
+   http://localhost:8000
+
+---
+
+✅ PRONTO!
+
+Agora você pode fazer perguntas ao professor maluco! 🧠
+
+---
+
+❌ Se der erro:
+
+1. "Cannot find module" → npm install não funcionou
+   └ Tente novamente: cd backend && npm install && npm start
+
+2. "ERR_CONNECTION_REFUSED" → Backend não está rodando
+   └ Verifique se primeiro terminal mostra "Servidor rodando..."
+
+3. "Blank page" → Desktop não carregou
+   └ Pressione F5 (refresh) no navegador
+
+---
+
+Deixe o Terminal 1 ABERTO enquanto usa a aplicação!
+
+---
+
+Leia START.md para mais detalhes.
